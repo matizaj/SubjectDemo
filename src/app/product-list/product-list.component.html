@@ -1,0 +1,5 @@
+<ul  *ngFor="let product of products">
+      <li>{{product}}</li>
+      <button class="btn btn-danger"(click)="remove(product)">Usun</button>
+      <button class="btn btn-success"(click)="buy(product)">Kup</button>
+</ul>
